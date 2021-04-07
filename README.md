@@ -14,3 +14,6 @@ tecnica de seleção de atributos (RFE - feature selection)
 
 4 - Previsão(regressão) dos preços dos imoveis em Washington de 2014 a 2015, usando uma base do kaggle, onde os valores de entrada são numero de quartos e banheiros, metragem da casa e lote, nuemro de andares, beira mar, condição, nota, ano de contrução e reforma, cep, lat, log. Os valores são escalonado entre 0 e 1 para melhorar o processamento.
 a rede neural para regressao é normalmente quadrada com 3 camadas de 100 neuronios cada, com a camanda de saida linear.
+
+5 - Classificação de sentimento nos textos de 3000 reviews de clientes sobre a Alexa, tirando insights na analise de sentimentos positivos ou negativos.
+processamos o textos com o tokenização as palavras transformando em uma tabela, a metrica de avalição da predição X real usando a matriz de confução baseando nos valores Acuracia, Recall, Precisão.
