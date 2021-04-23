@@ -21,3 +21,6 @@ processamos o textos com o tokenização as palavras transformando em uma tabela
 visualizar a correlação de cada variavel com a probabilidade de ter ou nao diabetes.
 para evitar overfitting usamos a tecnica de Dropout removendo 20% dos neuronios.
 usamos tecnica de Feature Selection do Scikit Learn para selecinar as melhores colunas.
+
+7 - Classificar de imagens com uma Rede Neural Convolucional, usando filtros(Kernel) de imagens e outras tecnicar.
+usando a base fashion mnist com 70.000 imagens de roupas do tamanho 28x28 em apenas escala de cinza cada pixel na escala de 0(preto) a 255(branco), toral de 784 pixeis ou colunas, nao temos 3 dimencoes como core de RGB. as imagens vao classificar em 10 classes.
